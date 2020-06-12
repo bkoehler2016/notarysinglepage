@@ -2649,6 +2649,11 @@ input, select, textarea {
 			cursor: default;
 			opacity: 0.25;
 		}
+		.four-years{
+			font-size: 1.5em;
+			font-weight: normal;
+			/* border: solid 1px red; */
+		}
 
 /* Features */
 
