@@ -2654,6 +2654,10 @@ input, select, textarea {
 			font-weight: normal;
 			/* border: solid 1px red; */
 		}
+	/* table */
+	th{
+		font-weight: bold;
+	}
 
 /* Features */
 
