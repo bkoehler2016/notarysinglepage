@@ -2210,6 +2210,8 @@ input, select, textarea {
 	
 				.image.main img {
 					border-radius: 0;
+					max-width: 100%;
+					height: auto;
 				}
 
 /* List */
