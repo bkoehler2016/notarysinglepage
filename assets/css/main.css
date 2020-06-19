@@ -2518,7 +2518,10 @@ input, select, textarea {
 				border-top: 0;
 			}
 
-			.fees{
+			.fees{ 
+				color: var(--main-color);
+			}
+			.tel{
 				color: var(--main-color);
 			}
 
