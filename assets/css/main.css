@@ -2450,14 +2450,22 @@ input, select, textarea {
 	}
 
 	table {
+		table-layout: fixed;
+		border-collapse: collapse ;
 		margin: 0 0 2.25em 0;
 		width: 100%;
 	}
+	table, td, th{
+		border: solid 1px var(--main-color);
+	}
+	 h3{
+		color: var(--main-color);
+	}
+	
 
 		table tbody tr {
-			border: solid 2px #f4f4f4;
-			border-left: 0;
-			border-right: 0;
+			border: solid 1px var(--main-color);
+			
 		}
 
 			table tbody tr:nth-child(2n + 1) {
@@ -2469,8 +2477,8 @@ input, select, textarea {
 		}
 
 		table th {
-			color: #777;
-			font-size: 0.9em;
+			color: var(--main-color);
+			font-size: 1.5em;
 			font-weight: 700;
 			padding: 0 0.75em 0.75em 0.75em;
 			text-align: left;
@@ -2508,6 +2516,10 @@ input, select, textarea {
 
 			table.alt tfoot {
 				border-top: 0;
+			}
+
+			.fees{
+				color: var(--main-color);
 			}
 
 /* Button */
